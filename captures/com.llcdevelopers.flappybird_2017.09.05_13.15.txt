@@ -1,0 +1,48 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 116620 Realtime: 116620
+
+** MEMINFO in pid 2613 [com.llcdevelopers.flappybird] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     1960     1892        0        0    18432    15747     2684
+  Dalvik Heap     4408     4252        0        0    10432     6336     4096
+ Dalvik Other      913      912        0        0                           
+        Stack      208      208        0        0                           
+       Ashmem        4        4        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     1221      124      296        0                           
+    .apk mmap     2079     1904        0        0                           
+    .dex mmap      312      256       56        0                           
+    .oat mmap     1288        0      148        0                           
+    .art mmap     1279      916        0        0                           
+   Other mmap       11        4        0        0                           
+      Unknown      231      220        0        0                           
+        TOTAL    13918    10692      504        0    28864    22083     6780
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     5168
+         Native Heap:     1892
+                Code:     2784
+               Stack:      208
+            Graphics:        0
+       Private Other:     1144
+              System:     2722
+ 
+               TOTAL:    13918       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        5         ViewRootImpl:        1
+         AppContexts:        3           Activities:        1
+              Assets:        2        AssetManagers:        2
+       Local Binders:       12        Proxy Binders:       15
+       Parcel memory:        4         Parcel count:       16
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
